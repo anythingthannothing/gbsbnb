@@ -14,8 +14,8 @@
 
 ### 핵심 기능 명세서
 1. 회원, 제품, 카테고리, 카트, 주문 등 **쇼핑몰의 핵심 기능 관련 CRUD** 
-2. **리프레쉬 토큰**을 활용해 Access Token 만료 기한을 축소해 보안성과 편의성 개선
-3. 전체 제품 목록을 **1) 페이지 2) 카테고리 3) 상품명 4) 제조사**별로 조회 가능
+2. **리프레쉬 토큰**을 활용해 보안성과 유저 편의성 개선
+3. 전체 제품 목록을 **1) 페이지 2) 카테고리 3) 상품명**별로 조회 가능
 4. **Local Stroage**를 활용한 장바구니를 통해 주문을 진행 및 주문 완료 후 조회 및 삭제 가능
 5. 관리자 페이지에서 한 번에 여러 **회원 권한, 배송 상태** 변경이 가능함.
 
@@ -28,20 +28,9 @@
 <img alt="개발세발네발 QR코드" src="./docs/images/qr.jpg" width="300px">
 </div>
 
-### 1-2. 테스트용 계정
-#### 일반 유저
-| 이메일 | 비밀번호 |
-| ------ | ------ |
-| user@elice.com | 비밀번호(영문으로) |
-
-#### 관리자 유저
-| 이메일 | 비밀번호 |
-| ------ | ------ |
-| admin@elice.com | 관리자(영문으로) |
-
 <br>
 
-### 1-3. API 문서
+### 1-2. API 문서
 #### GBSBNB API 문서 COMMONS
 [**▶ 바로가기**](https://valuable-sunspot-015.notion.site/a3e118ba48d34ba6ada2be02196b0190?v=5124a7fc4a1b4206afa95f0f830e5953)
 
@@ -73,15 +62,16 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![image](./docs/images/image24.png)</td>
-    <td>![image](./docs/images/image-27.png)</td>
+    <td><img src="./docs/images/image24.png"></td>
+    <td><img src="./docs/images/image-27.png"></td>
   </tr>
   <tr>
     <td>메인 페이지</td>
     <td>카테고리별 보기</td>
   </tr>
-  <td>![image](./docs/images/image-29.png)</td>
-    <td>![image](./docs/images/image-34.png)</td>
+  <tr>
+    <td><img src="./docs/images/image-29.png"></td>
+    <td><img src ="./docs/images/image-34.png"></td>
   </tr>
   <tr>
     <td>검색 결과 페이지</td>
@@ -112,8 +102,8 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![register](./docs/images/register.png)</td>
-    <td>![login](./docs/images/login.png)</td>
+    <td><img src="./docs/images/register.png"></td>
+    <td><img src="![login](./docs/images/login.png"></td>
   </tr>
   <tr>
     <td>회원가입</td>
@@ -140,7 +130,7 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![product_detail](./docs/images/product-detail.png)</td>
+    <td><img src="./docs/images/product-detail.png"></td>
     <td></td>
   </tr>
   <tr>
@@ -168,7 +158,7 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![cart](./docs/images/cart.png)</td>
+    <td><img src="./docs/images/cart.png"></td>
     <td></td>
   </tr>
   <tr>
@@ -199,15 +189,15 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![order](./docs/images/order.png)</td>
-    <td>![order_fin](./docs/images/order-fin.png)</td>
+    <td><img src="./docs/images/order.png"></td>
+    <td><img src="./docs/images/order-fin.png"></td>
   </tr>
   <tr>
     <td>주문</td>
     <td>주문 확인</td>
   </tr>
   <tr>
-    <td>)![order_check](./docs/images/order-check.png)</td>
+    <td><img src="./docs/images/order-check.png"></td>
     <td></td>
   </tr>
   <tr>
@@ -223,7 +213,7 @@
 
 | 기능 | 설명 |
 | ------ | ------ |
-| 회원정보 수정 | 정보 수정, 비밀번호 변경, 계정 삭제(softdelete) |
+| 회원정보 수정 | 정보 수정, 비밀번호 변경, 계정 삭제(soft-delete) |
 | 회원 주문 조회 | 주문을 조회하고 주문 취소 가능 |
 
 <details><summary>데모 영상</summary>
@@ -237,24 +227,24 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![mypage_enter](./docs/images/mypage-enter.png)</td>
-    <td>![mypage_info](./docs/images/mypage-info.png)</td>
+    <td><img src="./docs/images/mypage-enter.png"></td>
+    <td><img src="./docs/images/mypage-info.png"></td>
   </tr>
   <tr>
     <td>마이페이지 홈</td>
     <td>내 정보 확인</td>
   </tr>
   <tr>
-    <td>![mypage_info_modal](./docs/images/mypage-info-modal.png)</td>
-    <td>![mypage_info_edit](./docs/images/mypage-info-edit.png)</td>
+    <td><img src="./docs/images/mypage-info-modal.png"></td>
+    <td><img src="./docs/images/mypage-info-edit.png"></td>
   </tr>
   <tr>
     <td>정보 수정시 모달</td>
     <td>내 정보 수정</td>
   </tr>
   <tr>
-    <td>![mypage_info_password](./docs/images/mypage-info-password.png)</td>
-    <td>![mypage_order_new](./docs/images/mypage-order-new.png)</td>
+    <td><img src="./docs/images/mypage-info-password.png"></td>
+    <td><img src="./docs/images/mypage-order-new.png"></td>
   </tr>
   <tr>
     <td>비밀번호 수정</td>
@@ -288,24 +278,24 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![admin_main](./docs/images/admin-main.png)</td>
-    <td>![admin_item](./docs/images/admin-item.png)</td>
+    <td><img src="./docs/images/admin-main.png"></td>
+    <td><img src="./docs/images/admin-item.png"></td>
   </tr>
   <tr>
     <td>어드민 홈</td>
     <td>상품 조회</td>
   </tr>
   <tr>
-    <td>![admin_item_edit](./docs/images/admin-item-edit.png)</td>
-    <td>![admin_role](./docs/images/admin-role.png)</td>
+    <td><img src="./docs/images/admin-item-edit.png"></td>
+    <td><img src="./docs/images/admin-role.png"></td>
   </tr>
   <tr>
     <td>상품 수정</td>
     <td>회원 관리</td>
   </tr>
   <tr>
-    <td>![admin_add](./docs/images/admin-add.png)</td>
-    <td>![admin_order](./docs/images/admin-order.png)</td>
+    <td><img src="./docs/images/admin-add.png"></td>
+    <td><img src="./docs/images/admin-order.png"></td>
   </tr>
   <tr>
     <td>상품/카테고리 관리</td>
@@ -331,15 +321,15 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![notice_see](./docs/images/notice-see.png)</td>
-    <td>![notice_ceate](./docs/images/notice-ceate.png)</td>
+    <td><img src="./docs/images/notice-see.png"></td>
+    <td><img src="./docs/images/notice-ceate.png"></td>
   </tr>
   <tr>
     <td>공지사항 홈</td>
     <td>공지사항 생성</td>
   </tr>
   <tr>
-    <td>![notice_edit](./docs/images/notice-edit.png)</td>
+    <td><img src="./docs/images/notice-edit.png"></td>
     <td></td>
   </tr>
   <tr>
@@ -360,7 +350,7 @@
 <details><summary>페이지별 화면</summary>
 <table>
   <tr>
-    <td>![404](./docs/images/404.png)</td>
+    <td><img src="./docs/images/404.png"></td>
     <td></td>
   </tr>
   <tr>
